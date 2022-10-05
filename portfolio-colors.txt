@@ -1,0 +1,5 @@
+orange - rgb(255,80,1)
+lightgray - rgb(239,239,239)
+mid-gray - rgb(179,174,168)
+dark-gray - rgb(100,99,104)
+black - rgb(35,31,32)
