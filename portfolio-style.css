@@ -16,6 +16,14 @@ body{
   background-color: var(--lightgray-color);
 }
 
+a { text-decoration: none; }
+
+a:visited {color: var(--modern-red);}
+
+a:hover {color: var(--modern-red);}
+  
+a:active {color: var(--modern-red);}
+
 #container{
   background-color: var(--lightgray-color);
   height: 100%;
