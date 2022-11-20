@@ -84,14 +84,15 @@ a:active {
   justify-content: space-around;
   align-items: center;
   position: relative;
-  max-height: 3.5rem;
-  min-width: 420px;
+  height: 4em;
+  width: 22em;
   text-align: center;
   font-size: 0.6em;
   letter-spacing: 2px;
   background-color: var(--dark-blue);
   border-radius: 5px;
   margin: 2em 2em 0em 0em;
+  padding: 0 0.8em;
 }
 
 .nav-link{
@@ -99,9 +100,7 @@ a:active {
   text-decoration: none;
   color: white;
   background-color: var(--dark-blue);
-  padding: 1% 5% 1% 5%;
   border-radius: 5px;
-  padding: 2%;
 }
 
 .nav-link:hover{
@@ -232,3 +231,42 @@ footer{
     text-align: center;
   }
 }
+
+@media only screen 
+    and (max-width: 428px)  
+    and (-webkit-device-pixel-ratio: 3) { 
+      h2 {
+        font-size: 2em;
+      }
+
+      #intro-text {
+        font-size: 0.3em;
+      }
+
+      #main-img {
+        width: 10em;
+      }
+
+      .projects-content{
+        font-size: 0.3em;
+        width: 20em;
+        height: 8em;
+      }
+
+      #nav-bar{
+        height: 3em;
+        width: 32em;
+        font-size: 0.3em;
+        margin: 0 0 0 10em; 
+      }
+
+      .header-title {
+        margin-top: 1.5em;
+        font-size: 0.6em;
+      }
+      
+      .text-highlight {
+        font-size: 2em;
+      }
+
+    }
