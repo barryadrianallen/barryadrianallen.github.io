@@ -85,7 +85,7 @@ a:active {
   align-items: center;
   position: relative;
   height: 4em;
-  width: 22em;
+  width: 30em;
   text-align: center;
   font-size: 0.6em;
   letter-spacing: 2px;
@@ -101,6 +101,7 @@ a:active {
   color: white;
   background-color: var(--dark-blue);
   border-radius: 5px;
+  padding: 0.7em;
 }
 
 .nav-link:hover{
@@ -120,7 +121,7 @@ h2 {
   letter-spacing: 2px;
   line-height: 1em;
   text-align: center;
-  margin-bottom: 3em;
+  margin: 0em, 1em, 3em, 1em;
 }
 
 #main-img {
@@ -129,7 +130,7 @@ h2 {
   position: relative;
   width: 15em;
   opacity: 0.2;
-  margin: 0 auto;
+  margin: 2em auto;
 }
 
 #projects-container{
@@ -143,7 +144,7 @@ h2 {
 }
 
 .projects-content{
-  padding: 2.8em 0.3em 0.3em 0.3em;
+  padding: 3.7em 0.3em 0.3em 0.3em;
   letter-spacing: 3px;
   font-size: 0.5em;
   text-align: center;
@@ -153,7 +154,7 @@ h2 {
   box-shadow: -3px 2px 15px var(--midgray-color);
   background-color: var(--lightgray-color);
   color: var(--modern-red);
-  height: 8em;
+  height: 10em;
   width: 17em;
 }
 
